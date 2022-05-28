@@ -1,0 +1,74 @@
+.Menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 30px 80px 100px;
+    height: 260px;
+}
+
+.Menu-logo{
+    padding: 40px 0 34px 0;
+    width: 73px;
+    height: 66px;
+    align-self: center;
+
+}
+
+.Menu-logo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    color: #343434;
+}
+
+.Menu-list{
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.Menu-list-SPlabs, .Menu-list-SemProcesso {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    align-self: flex-start;
+    width: 200px;
+}
+
+.Menu-list-SPlabs a, .Menu-list-SemProcesso a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343434;
+}
+
+.Menu-list-SPlabs a:hover, .Menu-list-SemProcesso a:hover {
+    color: #343434;
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    text-decoration: underline;
+}
+
+.Menu-list-SPlabs p, .Menu-list-SemProcesso p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    letter-spacing: 0.015em;
+}
+
+@media (max-width: 768px) {
+    .Menu, .Menu-list {
+      flex-direction: column;
+    }
+    .Menu {
+        height: 449px;
+    }
+  }

@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import React from "react";
+import Hero from "./components/hero";
+import NavBar from "./components/navbar";
+import Banner from "./components/Banner";
+import Video from "./components/Video";
+import Form from "./components/Form";
+import Menu from "./components/Menu";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App-container">
+    <div className="header-image">
+      <div className="header-image-color">
+         <header className="header" >
+            <div className="NavBar">
+                <NavBar />
+            </div>
+            <Banner className="Banner"/>
+         </header>
+      </div>
+      </div>
+      <Hero className="Hero"/>
+      <Video className="Video"/>
+      <Form className="Form"/>
+      <Menu className="Menu"/>
+      <div className="Divider-container">
+        <div className="Divider"></div>
+      </div>
+      <footer className="footer">
+        <p>SP Labs 2022. feito por Kézia Márem</p>
+      </footer>
     </div>
   );
 }

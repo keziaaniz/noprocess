@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Roboto', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.NavBar{
+  width: 100%;
+  padding: 42px 0 0 0;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-image{
+  background-image: url(./images/group.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+filter: grayscale(78%);
+mix-blend-mode: color;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-image-color {
+  background: rgba(30, 30, 30, 0.6);
+}
+
+.header {
+  height: 110vh;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  width: 145vh;
+  margin: 0 100px 0 100px;
+  }
+
+.Banner {
+  width: 132vh;
+  height: 35vh;
+  padding-top: 200px;
+}
+
+.Hero {
+  height: 130vh;
+}
+
+.Divider-container {
+  display: flex;
+justify-items: center;
+width: 100%;
+}
+
+.Divider {
+  height: 2px;
+  width: 75rem;
+  background: #5DFED6;
+  border-radius: 4px;
+  margin-left: 100px;
   align-items: center;
+
+}
+
+.footer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 166px;
+  margin-top: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #343434;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 760px) {
+  .NavBar {
+      width: 340px;
   }
-  to {
-    transform: rotate(360deg);
+  .Banner {
+    width: 320px;
+  } 
+  .header {
+    width: 100%;
+    height: 122vh;
+  }
+  .Banner {
+    width: 42vh;
   }
 }
+
+
+

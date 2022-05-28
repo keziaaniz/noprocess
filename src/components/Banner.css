@@ -1,0 +1,88 @@
+.Banner{
+    padding-top: 100px;
+    width: 100%;
+}
+
+.Banner-title{
+    width:88vh;
+}
+
+.Banner-title h1 {
+    width: 580px;
+    height: 140px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.Banner-title h1 span {
+    font-family: 'Bodoni 72';
+    font-style: italic;
+    font-weight: 400;
+}
+
+.Banner-text p{
+    width: 640px;
+    height: 30px;    
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    padding: 16px 16px 12px 0;
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 8px;
+    width: 240px;
+    height: 45px;
+    background: #5DFED6;
+    border-radius: 4px;
+    border-color: #5DFED6;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.button:hover {
+    background: #45E6BF;
+}
+
+@media only screen and (max-width: 780px) {
+    .Banner {
+      width: 320px;
+    }
+    .Banner-title h1{
+            width: 300px;
+            height: 284px;
+    }
+    .Banner-title{
+        width: 300px;
+    }
+    .Banner-text p{
+        width: 330px;
+        height: 60px;
+    }
+
+  }

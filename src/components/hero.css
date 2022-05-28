@@ -1,0 +1,147 @@
+/* GET para : https://sp-labs.vercel.app/api/cases
+ */
+
+
+ /*  POST passando no body: {"name":""} para: https://sp-labs.vercel.app/api/contact */
+/* .Hero{ */
+    /* height: 230vh; */
+/* } */
+.Hero{
+    padding: 40px 100px 20px 100px;
+}
+
+.Hero-Title{
+    padding-bottom: 60px;
+}
+
+.Hero-Title h2{
+    width: 536px;
+    height: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.Hero-Title h2 span {
+    text-decoration: line-through;
+}
+
+.Hero-Title h3{
+    width: 536px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.Hero-Solutions {
+    height: 100vh;
+}
+
+.Hero-Solutions-List{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1080px;
+    height: 100vh;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.Hero-Solutions-item{
+    width: 524px;
+    height: 230px;
+    list-style: none;
+    margin: 0 0 16px 0;
+}
+
+.Hero-Solutions-item h3 {
+
+    height: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.Hero-Solutions-item p {
+    width: 522px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0 16px 0;
+
+}
+
+.Hero-Solutions-item button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 8px;
+    width: 132px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-color: #FFFFFF;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(52, 52, 52, 1);
+}
+
+.Hero-Solutions-item button:hover {
+    border: 1px solid rgba(52, 52, 52, 1);
+    background-color: #FFFFFF;
+}
+
+
+@media (max-width: 760px) {
+    .Hero-Solutions-List{
+        display: flex;
+        flex-wrap: wrap;
+        width: 46vh;
+        height: 100vh;
+        margin-top: 20px;
+        padding: 0;
+    }
+    
+  }
+  
+  

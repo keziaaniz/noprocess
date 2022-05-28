@@ -1,0 +1,64 @@
+.navbar-logo {
+    width: 73px ;
+
+    height: 43px;
+}
+
+.navbar-logo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    color: #fff;
+    margin: 0;
+
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+    gap: 32px;
+    width: 202px;
+    height: 29px;
+}
+
+.navbar-menu-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-menu li {
+    list-style: none; 
+    padding-left: 36px;   
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.navbar-menu a:hover {
+        text-decoration: underline;
+        color: #FFFFFF;
+        transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar-container {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 100%;
+    margin:0;
+}
